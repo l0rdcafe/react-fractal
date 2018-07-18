@@ -1,0 +1,50 @@
+.controls input {
+    position: relative;
+    top: -0.3rem;
+    width: 12%;
+    border-radius: 0;
+    box-shadow: 0px 0px 0px;
+    left: 43%;
+    text-align: center;
+}
+
+.controls h5 {
+    text-align: center;
+}
+
+.controls .toggle {
+    position: absolute;
+    right: 1%;
+}
+
+.controls .dec,
+.controls .inc {
+    position: absolute;
+}
+
+.controls .dec {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    left: 27.5%;
+}
+
+.controls .inc {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    left: 54.8%;
+}
+
+@media (min-width: 768px) {
+    .controls .dec {
+        left: 39.4%;
+    }
+
+    .controls .inc {
+        left: 57%;
+    }
+
+    .controls input {
+        left: 43.5%;
+        width: 13.54%;
+    }
+}
